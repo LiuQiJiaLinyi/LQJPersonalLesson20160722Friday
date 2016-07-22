@@ -52,6 +52,7 @@
 		82863A291D41AE3300006C61 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 		82863A2B1D41BC2800006C61 /* DetailCourseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCourseTableCell.h; sourceTree = "<group>"; };
 		82863A2C1D41BC2800006C61 /* DetailCourseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCourseTableCell.m; sourceTree = "<group>"; };
+		82863A2E1D41F24A00006C61 /* GlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
 		82A037911D40795400A32979 /* MoreButtonCliekdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreButtonCliekdVC.h; sourceTree = "<group>"; };
 		82A037921D40795400A32979 /* MoreButtonCliekdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreButtonCliekdVC.m; sourceTree = "<group>"; };
 		82A037991D4095B900A32979 /* MoreButtCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreButtCollectionCell.h; sourceTree = "<group>"; };
@@ -234,6 +235,7 @@
 				B296BB131D410E8F00A032A4 /* HeadView.m */,
 				82863A281D41AE3300006C61 /* BottomView.h */,
 				82863A291D41AE3300006C61 /* BottomView.m */,
+				82863A2E1D41F24A00006C61 /* GlobalHeader.h */,
 			);
 			name = View;
 			sourceTree = "<group>";

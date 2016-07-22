@@ -102,7 +102,7 @@
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
    
     NSString *currentDateStr = [dateFormatter stringFromDate:[NSDate date]];
-    NSLog(@"%@",currentDateStr);
+    NSLog(@"+∞ %s %@",__FUNCTION__,currentDateStr);
 
     
     timeShowlabel.text =@"2016-07-22 14:00:00";
@@ -111,7 +111,7 @@
     UILabel * jiangshikecheng = [[UILabel alloc] initWithFrame:CGRectMake(14 * kFloatSize, timelabel.frame.origin.y + timelabel.frame.size.height +33 *kFloatSize, 64 * kFloatSize, 17 *kFloatSize)];
     
     jiangshikecheng.font = [UIFont boldSystemFontOfSize:17];
-    [jiangshikecheng setTextColor:[UIColor blackColor]];
+    [jiangshikecheng setTextColor:[UIColor colorWithRed:92/255.f green:92/255.f blue:92/255.f alpha:1]];
     jiangshikecheng.text = @"讲师课程";
     
     
@@ -130,7 +130,8 @@
 
 -(void)moreOfIt:(UIButton *)button
 {
-    NSLog( @"展示时更多的信息！");
+    NSLog( @"展示更多的信息！");
+
 }
 
 -(void)payItNow:(UIButton * )butt
